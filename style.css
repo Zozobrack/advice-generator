@@ -1,0 +1,72 @@
+/*     .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }*/
+
+    body{
+    	width: 100%;
+    	font-family: Manrope;
+    	background-color: hsl(218, 23%, 16%);
+    	font-size:18px;
+    }
+
+    .card{
+    	background-color: hsl(217, 19%, 24%);
+	    width: 330px;
+	    height: 220px;
+	    border-radius: 10px;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50% ,-50%);
+    }
+
+    .card span{
+    	color:hsl(150, 100%, 66%);
+    	font-size: 8px;
+    	letter-spacing: 2px;
+    	word-spacing: 2px;
+    	position: relative;
+    	left: 50%;
+    	transform: translate(-50%);
+    	display: inline-block;
+    	margin-top: 28px;
+    }
+
+    .card p{
+    	color: white;
+    	text-align: center;
+    	position: relative;
+    	left: 50%;
+    	transform: translate(-50%);
+    	height: 50%;
+    	margin-bottom: 0px;
+    	width: 80%;
+    }
+
+    .img-containeur{
+    	background-color: hsl(150, 100%, 66%);
+    	width: 40px;
+    	height: 40px;
+    	border-radius: 100%;
+    	position: absolute;
+   	 	top: 100%;
+    	left: 50%;
+    	transform: translate(-50%,-50%);
+    }
+
+    .img-containeur img{
+    	width: 40%;
+    	height: 40%;
+    	position: relative;
+    	top: 50%;
+    	left: 50%;
+    	transform: translate(-50%,-65%);
+    }
+
+    .img-containeur1 img{
+    	width: 85%;
+    	height: 5%;
+    	position: relative;
+    	top: 50%;
+    	left:50%;
+    	transform: translate(-50%, -50%);
+    }
